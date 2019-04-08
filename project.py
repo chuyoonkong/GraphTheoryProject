@@ -1,3 +1,4 @@
+#Chu Yoon Kong
 #============= Shunting Yard Algorithm ======================
 def shunt(infix):
 
@@ -63,7 +64,7 @@ def compile(pofix):
 		#//////////////////////////////////////		
 		elif c == '|':
 		
-				# Pop two NFA's off the stack
+			# Pop two NFA's off the stack
 			nfa2 = nfastack.pop()
 			nfa1 = nfastack.pop()
 		
